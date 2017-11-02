@@ -3,6 +3,13 @@ Your custom styles go here
  ========= */
  
   /* custom */
+.item.link{
+    width: 33%;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
 .loading{
     width:50%;
     margin: 30px auto;
@@ -20,7 +27,7 @@ Your custom styles go here
      height: 50px;
  }
  .item-thumbnail{
-     width:33.3%;
+     width:100%;
  }
   
  /* item.vue */
@@ -86,7 +93,7 @@ Your custom styles go here
  .item-img {
     height: 100%;
     position: absolute;
-    left: -50%;
+    left: 0;
     z-index: -10;
     user-drag: none; 
     user-select: none;

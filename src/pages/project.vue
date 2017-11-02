@@ -1,7 +1,7 @@
 <template>
   <f7-page>
     <f7-navbar :title="project.name" back-link="Back" sliding></f7-navbar>
-    <f7-link v-for="item in items" 
+    <f7-link v-for="item in items" class="item"
             @click="setItemInfo(item.key)" 
             :href="'/item/' + item.key"
             :ref="item.key">
