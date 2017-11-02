@@ -3,7 +3,10 @@ Your custom styles go here
  ========= */
  
   /* custom */
-
+.loading{
+    width:50%;
+    margin: 30px auto;
+}
 .content-block.close{
     margin: 15px 0;
 }

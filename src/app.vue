@@ -28,7 +28,11 @@
                 <f7-link icon="icon-bars" open-panel="right"></f7-link>
               </f7-nav-right>
             </f7-navbar>
-            <f7-list media-list class="close">
+            <f7-block v-if="projects.length === 0" style="text-align:center;">
+                <img class="loading" src='img/logo.png' />
+                <p>Loading ...</p>
+            </f7-block>
+            <f7-list media-list class="close"  v-if="projects.length > 0">
               <f7-list-item 
                 v-for="project in projects" :title="project.name"
                 :ref="project.key"
