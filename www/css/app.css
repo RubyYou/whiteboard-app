@@ -5,7 +5,7 @@ Your custom styles go here
   /* custom */
 .item.link{
     width: 33%;
-    height: 200px;
+    height: 100px;
     overflow: hidden;
     display: inline-block;
     float: left;
