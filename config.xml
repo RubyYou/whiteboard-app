@@ -11,6 +11,8 @@
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <access origin="wss://*.firebaseio.com" subdomains="true"/>
+    <access origin="https://*.firebaseio.com" subdomains="true" requires-forward-secrecy="false"/>
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
